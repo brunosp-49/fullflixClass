@@ -1,9 +1,20 @@
+import { useEffect } from "react"
+import { useState } from "react"
+import { getList } from "../../assets/api/req"
+import { Cards } from "../../components/cards/Cards"
+import { Footer } from "../../components/footer/Footer"
 
 
-export const Home =(props)=>{
+export const Home =()=>{
     return (
         <div>
-            Home
+            <div>
+                imagens
+            </div>
+            <div>
+                <Cards/>
+            </div>
+            <Footer/>
         </div>
     )
 }
