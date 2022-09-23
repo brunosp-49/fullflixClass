@@ -3,18 +3,20 @@ import { useState } from "react"
 import { getList } from "../../assets/api/req"
 import { Cards } from "../../components/cards/Cards"
 import { Footer } from "../../components/footer/Footer"
+import { MainContainer, Part1, Part2, Part3 } from "./HomeStyle"
 
 
 export const Home =()=>{
     return (
-        <div>
-            <div>
-                imagens
-            </div>
-            <div>
+        <MainContainer>
+            <Part1 />
+            <Part2>
+                <p>Filmes Populares</p>
+            </Part2>
+            <Part3>
                 <Cards/>
-            </div>
+            </Part3>
             <Footer/>
-        </div>
+        </MainContainer>
     )
 }
