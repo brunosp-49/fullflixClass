@@ -1,6 +1,3 @@
-import { useEffect } from "react"
-import { useState } from "react"
-import { getList } from "../../assets/api/req"
 import { MainContainer } from "./FooterStyle"
 
 

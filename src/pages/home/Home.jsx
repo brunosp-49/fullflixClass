@@ -1,6 +1,3 @@
-import { useEffect } from "react"
-import { useState } from "react"
-import { getList } from "../../assets/api/req"
 import { Cards } from "../../components/cards/Cards"
 import { Footer } from "../../components/footer/Footer"
 import { MainContainer, Part1, Part2, Part3 } from "./HomeStyle"
