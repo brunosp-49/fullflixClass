@@ -22,15 +22,8 @@ export const Cards =()=>{
         dispatch(getMovieDetails(details))
     },[details])
 
-    const onHoverDetail = async(e) =>{
+    const onHoverDetail = (e) =>{
         getDetail(e.target.id, setDetails)
-    }
-    
-
-    const nome = async()=>{
-        await onHoverDetail()
-        await dispatch(sdfsdf)
-        navigate("/details")
     }
 
     return (
