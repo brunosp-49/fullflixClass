@@ -2,7 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
     value: "Home",
-    value2: {}
+    value2: {},
 }
 
 export const counterSlice = createSlice({

@@ -1,15 +1,18 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-export const CardContainer = styled.div`
+export const CardContainer = styled(Link)`
 display: flex;
 flex-direction: column;
 justify-content: center;
+text-decoration: none;
 align-items: center;
 background-color: black;
 height: 100%;
 width: 100%;
 border: 1px solid #fff;
 border-radius: 5px;
+color: #fff;
 .infoContainer{
     display: flex;
     width: 90%;
